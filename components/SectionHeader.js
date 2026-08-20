@@ -10,7 +10,10 @@ export default function SectionHeader({
   align = "center",
   as: Heading = "h2",
 }) {
-  const alignment = align === "center" ? "items-center text-center mx-auto" : "items-start text-left";
+  const alignment =
+    align === "center"
+      ? "items-center text-center mx-auto"
+      : "items-center text-center mx-auto sm:items-start sm:text-left sm:mx-0";
 
   return (
     <div className={`flex flex-col gap-4 ${alignment} max-w-2xl`}>

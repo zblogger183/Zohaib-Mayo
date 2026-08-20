@@ -54,19 +54,19 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-6xl px-6 py-16 sm:py-24">
           <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-[1.25fr_1.05fr_0.9fr]">
             {/* Left: name, role, CTAs */}
-            <div>
+            <div className="text-center sm:text-left">
               <p className="text-sm font-medium text-muted">I&rsquo;m</p>
               <h1 className="mt-2 text-4xl sm:text-5xl font-bold leading-tight text-white">
                 {site.name}, <span className="text-amber">{site.role}.</span>
               </h1>
-              <p className="mt-5 max-w-md text-base leading-relaxed text-muted">{site.tagline}</p>
-              <div className="mt-8 flex flex-wrap items-center gap-4">
+              <p className="mt-5 max-w-md text-base leading-relaxed text-muted mx-auto sm:mx-0">{site.tagline}</p>
+              <div className="mt-8 flex flex-wrap items-center justify-center gap-4 sm:justify-start">
                 <PillButton href="/contact" icon="Phone">
                   Hire Me Now
                 </PillButton>
                 <CircleArrowButton href="/projects" label="View my work" />
               </div>
-              <div className="mt-8 flex items-center gap-2 text-sm text-muted">
+              <div className="mt-8 flex items-center justify-center gap-2 text-sm text-muted sm:justify-start">
                 <Icon name="Globe" size={16} className="text-lime" />
                 {site.domain}
               </div>
@@ -160,7 +160,7 @@ export default function HomePage() {
       {/* Services grid */}
       <section className="bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <div className="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeader
               align="left"
               eyebrow="Services"
@@ -190,7 +190,7 @@ export default function HomePage() {
       {/* Case studies */}
       <section className="bg-bg">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <div className="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeader
               align="left"
               eyebrow="Real Work"
@@ -213,7 +213,7 @@ export default function HomePage() {
       {/* Projects grid */}
       <section className="panel-section">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <div className="flex flex-col items-center justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeader
               align="left"
               eyebrow="Projects"
