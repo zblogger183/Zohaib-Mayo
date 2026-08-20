@@ -303,6 +303,82 @@ export const services = [
       "Monthly insight-driven reporting",
     ],
   },
+  {
+    slug: "crm-business-automation",
+    icon: "Workflow",
+    number: "09",
+    name: "CRM & Business Automation",
+    shortName: "CRM & Automation",
+    summary:
+      "CRM setup and workflow automation that stops leads from falling through the cracks.",
+    metaTitle: "CRM Setup & Business Automation Services | Zohaib Mayo",
+    metaDescription:
+      "CRM implementation, pipeline setup, and marketing/sales automation that connects your channels into one system instead of scattered spreadsheets.",
+    heroKicker: "CRM & Automation",
+    heroHeading: "Systems That Follow Up So Leads Don't Slip Through.",
+    heroIntro:
+      "Most of the leads a marketing campaign generates get lost somewhere between the ad click and a sales follow-up. I set up the CRM and automation layer that connects marketing, sales, and support into one system — so every lead is tracked, followed up, and reported on automatically.",
+    sections: [
+      {
+        heading: "CRM Setup & Pipeline Design",
+        body: "Configuring a CRM (HubSpot, Zoho, GoHighLevel, or similar) around how your business actually sells, not a generic out-of-the-box pipeline that doesn't match your process.",
+      },
+      {
+        heading: "Marketing & Sales Automation",
+        body: "Automated lead routing, follow-up sequences, and internal notifications so no lead sits untouched waiting for someone to notice it.",
+      },
+      {
+        heading: "Systems Integration",
+        body: "Connecting your CRM to your website forms, ad platforms, WhatsApp, and email tools so data flows one way instead of being re-entered by hand.",
+      },
+    ],
+    checklist: [
+      "CRM setup & configuration (HubSpot, Zoho, GoHighLevel)",
+      "Sales pipeline & deal stage design",
+      "Lead routing & follow-up automation",
+      "WhatsApp & form integrations",
+      "Internal notification workflows",
+      "Reporting dashboards for sales & marketing",
+    ],
+  },
+  {
+    slug: "custom-software-development",
+    icon: "Cpu",
+    number: "10",
+    name: "Custom Software & Web Applications",
+    shortName: "Custom Software",
+    summary:
+      "Custom-built tools and internal applications for workflows an off-the-shelf platform can't handle.",
+    metaTitle: "Custom Software & Web Application Development | Zohaib Mayo",
+    metaDescription:
+      "Custom web applications, internal tools, and integrations built when off-the-shelf marketing platforms can't handle a specific workflow.",
+    heroKicker: "Custom Software Development",
+    heroHeading: "Built For The One Workflow No Off-The-Shelf Tool Handles.",
+    heroIntro:
+      "Sometimes the bottleneck isn't marketing — it's a manual process no existing platform quite fits. I build the custom tools, internal dashboards, and integrations that close that specific gap, using the same full-stack skill set behind the marketing work.",
+    sections: [
+      {
+        heading: "Custom Web Applications",
+        body: "Purpose-built applications for booking flows, lead management, internal tools, or client portals — scoped tightly around the actual workflow instead of forcing a generic platform to fit.",
+      },
+      {
+        heading: "Third-Party Integrations & APIs",
+        body: "Connecting your existing tools — CRM, ad platforms, payment gateways, property portals — through custom API integrations when no native integration exists.",
+      },
+      {
+        heading: "Internal Dashboards & Tools",
+        body: "Simple internal tools built to replace a spreadsheet or manual process your team repeats every week.",
+      },
+    ],
+    checklist: [
+      "Custom web application development",
+      "API integrations & automation scripts",
+      "Internal dashboards & admin tools",
+      "Client & booking portals",
+      "Database design & data migration",
+      "Ongoing support & maintenance",
+    ],
+  },
 ];
 
 export function getServiceBySlug(slug) {

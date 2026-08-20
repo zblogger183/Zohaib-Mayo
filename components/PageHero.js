@@ -21,7 +21,7 @@ export default function PageHero({ title, crumbs = [] }) {
         }}
         aria-hidden="true"
       />
-      <div className="relative mx-auto max-w-6xl px-6 py-20 sm:py-24 text-center">
+      <div className="relative mx-auto max-w-6xl px-6 py-10 sm:py-14 text-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-white">{title}</h1>
         <nav aria-label="Breadcrumb" className="mt-4 flex items-center justify-center gap-2 text-sm text-muted">
           <Link href="/" className="hover:text-lime transition-colors">

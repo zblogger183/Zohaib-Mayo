@@ -1,6 +1,9 @@
+import { services } from "@/data/services";
+import { industries } from "@/data/industries";
+
 const defaultStats = [
-  { value: "8", label: "Core Services Offered" },
-  { value: "6", label: "Industries Served" },
+  { value: String(services.length), label: "Core Services Offered" },
+  { value: String(industries.length), label: "Industries Served" },
   { value: "1", label: "Solo Full-Stack Operator" },
   { value: "2", label: "Regions Covered — PK & GCC" },
 ];

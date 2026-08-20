@@ -8,8 +8,7 @@ export const site = {
   description:
     "Zohaib Mayo is a full-stack digital marketer specializing in SEO, paid advertising, content, and web development — helping real estate, e-commerce, and local brands turn traffic into revenue.",
   email: "hello@zohaibmayo.com",
-  // placeholder — replace with real number before launch
-  phone: "+92 300 1234567",
+  phone: "+92 304 4619335",
   // placeholder — replace with real WhatsApp link before launch
   whatsapp: "https://wa.me/923001234567",
   address: { line1: "Lahore, Punjab", line2: "Pakistan" },

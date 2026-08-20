@@ -2,6 +2,7 @@ import Link from "next/link";
 import { site } from "@/data/site";
 import { services } from "@/data/services";
 import { projects } from "@/data/projects";
+import { caseStudies } from "@/data/case-studies";
 import { processSteps, pricingPlans, faqs } from "@/data/content";
 import { PillButton, CircleArrowButton } from "@/components/Buttons";
 import PortraitPhoto from "@/components/PortraitPhoto";
@@ -12,6 +13,7 @@ import Marquee from "@/components/Marquee";
 import StatsRow from "@/components/StatsRow";
 import ToolsStrip from "@/components/ToolsStrip";
 import ServiceCard from "@/components/ServiceCard";
+import CaseStudyCard from "@/components/CaseStudyCard";
 import ProjectCard from "@/components/ProjectCard";
 import SkillBars from "@/components/SkillBars";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -184,6 +186,29 @@ export default function HomePage() {
         highlight="Actually Grows Revenue."
         description="I'm currently taking on new projects across Pakistan, the GCC, and remote clients worldwide."
       />
+
+      {/* Case studies */}
+      <section className="bg-bg">
+        <div className="mx-auto max-w-6xl px-6 py-20">
+          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+            <SectionHeader
+              align="left"
+              eyebrow="Real Work"
+              heading="Real Clients,"
+              highlight="Real Results."
+              description="Completed and ongoing engagements I've led end to end — actual numbers, not projections."
+            />
+            <PillButton href="/case-studies" icon="ArrowRight">
+              View All
+            </PillButton>
+          </div>
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {caseStudies.map((study) => (
+              <CaseStudyCard key={study.slug} study={study} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Projects grid */}
       <section className="panel-section">

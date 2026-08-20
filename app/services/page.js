@@ -9,7 +9,7 @@ import CtaBanner from "@/components/CtaBanner";
 export const metadata = {
   title: "Services",
   description:
-    "Full-stack digital marketing services from Zohaib Mayo — SEO, paid advertising, social media, content, email, web development, CRO, and analytics.",
+    "Full-stack digital marketing services from Zohaib Mayo — SEO, paid advertising, social media, content, email, web development, CRO, analytics, CRM automation, and custom software.",
   alternates: { canonical: "/services" },
 };
 
@@ -22,7 +22,7 @@ export default function ServicesHubPage() {
         <div className="mx-auto max-w-6xl px-6 py-20">
           <SectionHeader
             eyebrow="What I Do"
-            heading="Eight Channels, One"
+            heading={`${services.length} Channels, One`}
             highlight="Accountable Operator."
             description="Every service below is run end to end by me — strategy, execution, and reporting under one roof."
           />

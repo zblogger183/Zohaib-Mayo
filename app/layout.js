@@ -1,6 +1,7 @@
 import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
+import { getImage } from "@/lib/images";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -39,10 +40,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const logoSrc = getImage("brand", "logo");
+
   return (
     <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
       <body className="min-h-screen bg-bg text-body antialiased flex flex-col">
-        <Navbar />
+        <Navbar logoSrc={logoSrc} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

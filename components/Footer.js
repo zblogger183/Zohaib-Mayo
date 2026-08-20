@@ -4,6 +4,7 @@ import { services } from "@/data/services";
 import { PillButton } from "@/components/Buttons";
 import SocialIcon from "@/components/SocialIcons";
 import Icon from "@/components/Icon";
+import Logo from "@/components/Logo";
 
 const chips = ["SEO", "Paid Advertising", "Content & Email", "Web Development"];
 
@@ -63,12 +64,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 py-14">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <Link href="/" className="flex items-center gap-2">
-              <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-lime font-heading text-base font-extrabold text-[#06090a]">
-                Z
-              </span>
-              <span className="font-heading text-sm font-bold tracking-wide text-white">{site.brand}</span>
-            </Link>
+            <Logo />
             <p className="mt-4 text-sm text-muted leading-relaxed">{site.tagline}</p>
             <div className="mt-5 flex items-center gap-3">
               {socialLinks.map((social) => (

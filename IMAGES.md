@@ -7,6 +7,7 @@ layout never breaks.
 
 | Rename your photo to | Dimensions (W x H) | Controls |
 |-----------------------|---------------------|----------|
+| brand/logo.webp | 512 x 512 px, square, transparent background | Navbar & footer logo mark (replaces the lime "Z" badge) |
 | hero/portrait.webp | 900 x 1100 px | Homepage hero photo of you |
 | about/photo-1.webp | 1000 x 750 px | About page — main team/office photo |
 | about/photo-2.webp | 480 x 600 px | About page — small overlapping inset photo |
@@ -18,6 +19,8 @@ layout never breaks.
 | services/web-development.webp | 1200 x 900 px | Web Development card + detail page hero |
 | services/conversion-rate-optimization.webp | 1200 x 900 px | CRO card + detail page hero |
 | services/analytics-reporting.webp | 1200 x 900 px | Analytics card + detail page hero |
+| services/crm-business-automation.webp | 1200 x 900 px | CRM & Business Automation card + detail page hero |
+| services/custom-software-development.webp | 1200 x 900 px | Custom Software & Web Applications card + detail page hero |
 | industries/real-estate.webp | 1200 x 900 px | Real Estate card + detail page hero |
 | industries/ecommerce.webp | 1200 x 900 px | E-commerce card + detail page hero |
 | industries/hospitality-travel.webp | 1200 x 900 px | Hospitality & Travel card + detail page hero |

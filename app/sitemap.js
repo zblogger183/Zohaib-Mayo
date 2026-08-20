@@ -2,6 +2,7 @@ import { site } from "@/data/site";
 import { services } from "@/data/services";
 import { industries } from "@/data/industries";
 import { projects } from "@/data/projects";
+import { caseStudies } from "@/data/case-studies";
 
 export default function sitemap() {
   const now = new Date();
@@ -11,6 +12,7 @@ export default function sitemap() {
     "/about",
     "/services",
     "/industries",
+    "/case-studies",
     "/projects",
     "/contact",
     "/privacy",
@@ -35,5 +37,10 @@ export default function sitemap() {
     lastModified: now,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...industryRoutes, ...projectRoutes];
+  const caseStudyRoutes = caseStudies.map((study) => ({
+    url: `${site.url}/case-studies/${study.slug}`,
+    lastModified: now,
+  }));
+
+  return [...staticRoutes, ...serviceRoutes, ...industryRoutes, ...projectRoutes, ...caseStudyRoutes];
 }

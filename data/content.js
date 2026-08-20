@@ -31,6 +31,39 @@ export const processSteps = [
   },
 ];
 
+export const milestones = [
+  {
+    year: "2021",
+    title: "SEO Foundations",
+    body: "Started out focused entirely on SEO, then expanded into web development soon after — learning early that rankings mean nothing without a site built to convert.",
+  },
+  {
+    year: "2022",
+    title: "SEO & E-commerce Specialist",
+    body: "Sharpened into an SEO and e-commerce specialist, working hands-on with online stores where technical SEO and product page optimization directly moved revenue, not just traffic.",
+  },
+  {
+    year: "2023",
+    title: "Built My Own Agency",
+    body: "Took the leap and built my own agency, moving from freelance projects to running client work end-to-end — strategy, delivery, and results, under one roof.",
+  },
+  {
+    year: "2024",
+    title: "Went Full-Stack",
+    body: "Expanded beyond SEO into a true full-stack offering — paid advertising, content, email, and web development — so clients get one accountable owner instead of stitching together multiple freelancers.",
+  },
+  {
+    year: "2025",
+    title: "Real Estate & Performance Marketing",
+    body: "Entered the real estate market as a full-stack performance marketer, combining SEO, paid ads, and web builds specifically for property lead generation.",
+  },
+  {
+    year: "2026",
+    title: "RealtMark & Sarzameen",
+    body: "Launched RealtMark for the Dubai/GCC market and Sarzameen for Pakistan — two dedicated real estate marketing brands built on everything learned since 2021.",
+  },
+];
+
 export const pricingPlans = [
   {
     name: "Starter",

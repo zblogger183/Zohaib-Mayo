@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/data/site";
 import { PillButton } from "@/components/Buttons";
@@ -11,20 +12,27 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/industries", label: "Industries" },
+  { href: "/case-studies", label: "Case Studies" },
   { href: "/projects", label: "Projects" },
   { href: "/contact", label: "Contact" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ logoSrc }) {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/5 bg-bg/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-lime font-heading text-base font-extrabold text-[#06090a]">
-            Z
-          </span>
+          {logoSrc ? (
+            <span className="relative h-9 w-9 shrink-0">
+              <Image src={logoSrc} alt={`${site.brand} logo`} fill className="object-contain" sizes="36px" />
+            </span>
+          ) : (
+            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-lime font-heading text-base font-extrabold text-[#06090a]">
+              Z
+            </span>
+          )}
           <span className="font-heading text-sm font-bold tracking-wide text-white">{site.brand}</span>
         </Link>
 

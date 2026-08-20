@@ -10,6 +10,7 @@ import Icon from "@/components/Icon";
 import MonogramPortrait from "@/components/MonogramPortrait";
 import JsonLd from "@/components/JsonLd";
 import { getImage } from "@/lib/images";
+import { milestones } from "@/data/content";
 
 export const metadata = {
   title: "About Zohaib Mayo",
@@ -17,13 +18,6 @@ export const metadata = {
     "Meet Zohaib Mayo, a full-stack digital marketer working across Pakistan and the GCC — the story, the skills, and the way he approaches every project.",
   alternates: { canonical: "/about" },
 };
-
-const timeline = [
-  { period: "[Add year]", title: "[Add your real milestone here]" },
-  { period: "[Add year]", title: "[Add your real milestone here]" },
-  { period: "[Add year]", title: "[Add your real milestone here]" },
-  { period: "[Add year]", title: "[Add your real milestone here]" },
-];
 
 export default function AboutPage() {
   const photo1 = getImage("about", "photo-1");
@@ -110,15 +104,18 @@ export default function AboutPage() {
             eyebrow="Career Timeline"
             heading="Milestones Along the"
             highlight="Way."
-            description="Placeholder timeline — to be filled in with real dates and milestones."
+            description="From first SEO client to running dedicated real estate marketing brands — here's the path so far."
           />
           <div className="mt-12 flex flex-col gap-4">
-            {timeline.map((item, index) => (
-              <div key={index} className="card-surface flex items-center gap-4 rounded-xl p-5">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-lime/15 text-sm font-semibold text-lime">
-                  {item.period}
+            {milestones.map((milestone) => (
+              <div key={milestone.year} className="card-surface flex items-start gap-4 rounded-xl p-5">
+                <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-lime/15 text-sm font-semibold text-lime">
+                  {milestone.year}
                 </span>
-                <p className="text-sm text-muted">{item.title}</p>
+                <div>
+                  <h3 className="text-base font-semibold text-white">{milestone.title}</h3>
+                  <p className="mt-1 text-sm leading-relaxed text-muted">{milestone.body}</p>
+                </div>
               </div>
             ))}
           </div>
