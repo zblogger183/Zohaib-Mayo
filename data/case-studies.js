@@ -76,6 +76,45 @@ export const caseStudies = [
     resultsImage: "upper-lines-pharmacy-results",
     screenshot: "upper-lines-pharmacy-site",
   },
+  {
+    slug: "imlaak",
+    client: "Imlaak",
+    url: "https://imlaak.com/",
+    industry: "Real Estate — Consultancy & Asset Management (Pakistan & Dubai)",
+    icon: "Building2",
+    timeframe: "January 2026 – Present",
+    role: "Leading full-stack digital marketing end to end — content, Meta and Google Ads, SEO, website, CRM lead automation, WhatsApp bot integration, and performance/funnel strategy across a multi-million PKR paid budget.",
+    summary:
+      "A real estate consultancy and asset management brand's entire digital marketing system — content, paid media, SEO, CRM, and lead automation — run end to end since January 2026.",
+    situation:
+      "Imlaak needed one person accountable for its entire digital marketing system — content across platforms, paid media at real scale, SEO, website management, and the lead pipeline connecting all of it — rather than results depending on several disconnected vendors.",
+    approach:
+      "I lead content strategy and publishing across platforms, manage Meta and Google Ads spend at a budget scale in the millions of PKR, own SEO and website management, and run lead management through CRM automation with WhatsApp bot integration. The focus has been performance marketing and funnel strategy — improving lead quality and lowering cost per lead, not just driving volume.",
+    results:
+      "Since January 2026, Google Search Console shows 7.34K total clicks and 858K total impressions over the six months to August 2026, at a 0.9% average CTR and an average position of 8.4. On the paid side, I manage Meta and Google Ads at a budget scale in the millions of PKR per month, with the work focused on lowering cost per lead and improving lead quality through performance marketing and funnel strategy rather than raw spend or click volume.",
+    metrics: [
+      { label: "Total clicks (organic)", value: "7.34K" },
+      { label: "Total impressions", value: "858K" },
+      { label: "Avg. CTR", value: "0.9%" },
+      { label: "Avg. position", value: "8.4" },
+    ],
+    testimonial: null,
+    logo: "imlaak-logo",
+    resultsImage: "imlaak-results",
+    screenshot: "imlaak-site",
+    gallery: [
+      {
+        image: "imlaak-meta-ads",
+        caption:
+          "Meta Ads Manager — account-level lifetime totals, including activity from before this engagement began in January 2026. Shown for platform context, not as a results claim.",
+      },
+      {
+        image: "imlaak-google-ads",
+        caption:
+          "Google Ads — account-level lifetime totals, including activity from before this engagement began in January 2026. Shown for platform context, not as a results claim.",
+      },
+    ],
+  },
 ];
 
 export function getCaseStudyBySlug(slug) {

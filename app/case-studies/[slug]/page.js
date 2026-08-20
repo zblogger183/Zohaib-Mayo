@@ -32,6 +32,9 @@ export default async function CaseStudyDetailPage({ params }) {
   const logo = getImage("case-studies", study.logo);
   const resultsImage = getImage("case-studies", study.resultsImage);
   const siteScreenshot = study.screenshot ? getImage("case-studies", study.screenshot) : null;
+  const gallery = (study.gallery || [])
+    .map((item) => ({ ...item, src: getImage("case-studies", item.image) }))
+    .filter((item) => item.src);
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
@@ -133,6 +136,28 @@ export default async function CaseStudyDetailPage({ params }) {
                 sizes="(max-width: 1024px) 100vw, 800px"
               />
             </div>
+          ) : null}
+
+          {gallery.length > 0 ? (
+            <>
+              <h2 className="mt-10 text-xl font-semibold text-white">Platform Screenshots</h2>
+              <div className="mt-4 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                {gallery.map((item) => (
+                  <figure key={item.image}>
+                    <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-white p-3">
+                      <Image
+                        src={item.src}
+                        alt={item.caption}
+                        fill
+                        className="object-contain"
+                        sizes="(max-width: 1024px) 100vw, 400px"
+                      />
+                    </div>
+                    <figcaption className="mt-2 text-xs leading-relaxed text-faint">{item.caption}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </>
           ) : null}
 
           <div className="mt-10 rounded-xl border border-white/10 bg-white/5 p-5 text-sm text-muted">
