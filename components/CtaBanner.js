@@ -15,7 +15,7 @@ export default function CtaBanner({
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(circle at 15% 30%, rgba(163,230,53,0.16), transparent 45%), radial-gradient(circle at 85% 70%, rgba(242,169,59,0.14), transparent 45%), #0b120c",
+            "radial-gradient(circle at 15% 30%, rgba(157, 230, 0,0.16), transparent 45%), radial-gradient(circle at 85% 70%, rgba(255, 194, 12,0.14), transparent 45%), #101010",
         }}
         aria-hidden="true"
       />

@@ -4,7 +4,7 @@ export default function MonogramPortrait({ className = "" }) {
       className={`relative flex aspect-[4/5] w-full items-center justify-center overflow-hidden rounded-3xl border border-white/10 ${className}`}
       style={{
         background:
-          "radial-gradient(circle at 30% 20%, rgba(163,230,53,0.25), transparent 55%), radial-gradient(circle at 80% 90%, rgba(242,169,59,0.2), transparent 50%), linear-gradient(160deg, #0e160f, #06090a)",
+          "radial-gradient(circle at 30% 20%, rgba(157, 230, 0,0.25), transparent 55%), radial-gradient(circle at 80% 90%, rgba(255, 194, 12,0.2), transparent 50%), linear-gradient(160deg, #161616, #0a0a0a)",
       }}
     >
       <span className="font-heading text-7xl sm:text-8xl font-extrabold text-white/90">ZM</span>

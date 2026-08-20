@@ -1,20 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --color-bg: #06090a;
-  --color-panel-from: #0b120c;
-  --color-panel-to: #0e160f;
+  --color-bg: #0a0a0a;
+  --color-panel-from: #101010;
+  --color-panel-to: #161616;
   --color-card-border: rgba(255, 255, 255, 0.08);
-  --color-lime: #a3e635;
-  --color-lime-hover: #8fce1f;
-  --color-amber: #f2a93b;
+  --color-lime: #9de600;
+  --color-lime-hover: #82be00;
+  --color-amber: #ffc20c;
   --color-text-heading: #ffffff;
-  --color-text-body: #e7ece4;
-  --color-text-muted: #b7c2b4;
-  --color-text-faint: #8a978a;
-
-  --font-heading: var(--font-poppins);
-  --font-body: var(--font-inter);
+  --color-text-body: #e8e8e8;
+  --color-text-muted: #c7c7c7;
+  --color-text-faint: #8a8a8a;
 }
 
 @theme inline {
@@ -43,11 +40,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
   color: var(--color-text-heading);
+  letter-spacing: 0.02em;
 }
 
 ::selection {
   background: var(--color-lime);
-  color: #06090a;
+  color: #0a0a0a;
 }
 
 :focus-visible {
@@ -66,8 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-surface:hover {
-  border-color: rgba(163, 230, 53, 0.45);
-  box-shadow: 0 0 0 1px rgba(163, 230, 53, 0.15), 0 20px 40px -20px rgba(163, 230, 53, 0.25);
+  border-color: rgba(157, 230, 0, 0.45);
+  box-shadow: 0 0 0 1px rgba(157, 230, 0, 0.15), 0 20px 40px -20px rgba(157, 230, 0, 0.25);
   transform: translateY(-4px);
 }
 

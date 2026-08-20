@@ -13,7 +13,7 @@ export default function Logo({ onClick }) {
           <Image src={logo} alt={`${site.brand} logo`} fill className="object-contain" sizes="36px" />
         </span>
       ) : (
-        <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-lime font-heading text-base font-extrabold text-[#06090a]">
+        <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-lime font-heading text-base font-extrabold text-[#0a0a0a]">
           Z
         </span>
       )}

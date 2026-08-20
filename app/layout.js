@@ -1,20 +1,21 @@
-import { Poppins, Inter } from "next/font/google";
+import { Unbounded, Poppins } from "next/font/google";
 import "./globals.css";
 import { site } from "@/data/site";
 import { getImage } from "@/lib/images";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const poppins = Poppins({
-  variable: "--font-poppins",
+const unbounded = Unbounded({
+  variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  weight: ["500", "600", "700"],
   display: "swap",
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const poppins = Poppins({
+  variable: "--font-body",
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600"],
   display: "swap",
 });
 
@@ -43,7 +44,7 @@ export default function RootLayout({ children }) {
   const logoSrc = getImage("brand", "logo");
 
   return (
-    <html lang="en" className={`${poppins.variable} ${inter.variable}`}>
+    <html lang="en" className={`${unbounded.variable} ${poppins.variable}`}>
       <body className="min-h-screen bg-bg text-body antialiased flex flex-col">
         <Navbar logoSrc={logoSrc} />
         <main className="flex-1">{children}</main>

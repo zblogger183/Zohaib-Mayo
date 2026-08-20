@@ -74,7 +74,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={social.label}
-                  className="flex h-9 w-9 items-center justify-center rounded-full bg-lime text-[#06090a] transition-colors hover:bg-lime-hover"
+                  className="flex h-9 w-9 items-center justify-center rounded-full bg-lime text-[#0a0a0a] transition-colors hover:bg-lime-hover"
                 >
                   <SocialIcon name={social.key} className="h-4 w-4" />
                 </a>

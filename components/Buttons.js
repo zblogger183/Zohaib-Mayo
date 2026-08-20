@@ -5,7 +5,7 @@ const base =
   "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime";
 
 const variants = {
-  primary: "bg-lime text-[#06090a] hover:bg-lime-hover",
+  primary: "bg-lime text-[#0a0a0a] hover:bg-lime-hover",
   secondary: "border border-white/15 text-white hover:border-lime/60 hover:text-lime",
 };
 
@@ -42,7 +42,7 @@ export function PillButton({ href, variant = "primary", icon, children, classNam
 }
 
 export function CircleArrowButton({ href, className = "", label = "View" }) {
-  const classes = `group inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-lime text-[#06090a] transition-all duration-200 hover:bg-lime-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime ${className}`;
+  const classes = `group inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-lime text-[#0a0a0a] transition-all duration-200 hover:bg-lime-hover focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-lime ${className}`;
   const arrow = (
     <Icon
       name="ArrowUpRight"

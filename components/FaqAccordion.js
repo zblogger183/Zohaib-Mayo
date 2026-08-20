@@ -20,7 +20,7 @@ export default function FaqAccordion({ items }) {
             >
               <span className="text-sm sm:text-base font-semibold text-white">{item.question}</span>
               <span
-                className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-lime text-[#06090a] transition-transform duration-200 ${
+                className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-lime text-[#0a0a0a] transition-transform duration-200 ${
                   isOpen ? "rotate-45" : ""
                 }`}
               >

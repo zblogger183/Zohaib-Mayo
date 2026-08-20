@@ -47,7 +47,7 @@ export default function HomePage() {
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(circle at 12% 15%, rgba(163,230,53,0.14), transparent 40%), radial-gradient(circle at 90% 5%, rgba(242,169,59,0.12), transparent 40%)",
+              "radial-gradient(circle at 12% 15%, rgba(157, 230, 0,0.14), transparent 40%), radial-gradient(circle at 90% 5%, rgba(255, 194, 12,0.12), transparent 40%)",
           }}
           aria-hidden="true"
         />
@@ -124,7 +124,7 @@ export default function HomePage() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={social.label}
-                      className="flex h-9 w-9 items-center justify-center rounded-full bg-lime text-[#06090a] transition-colors hover:bg-lime-hover"
+                      className="flex h-9 w-9 items-center justify-center rounded-full bg-lime text-[#0a0a0a] transition-colors hover:bg-lime-hover"
                     >
                       <SocialIcon name={social.key} className="h-4 w-4" />
                     </a>

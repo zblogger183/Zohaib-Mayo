@@ -72,7 +72,7 @@ export default async function ServiceDetailPage({ params }) {
                       href={`/services/${s.slug}`}
                       className={`block rounded-full border px-4 py-2 text-sm transition-colors ${
                         s.slug === service.slug
-                          ? "border-lime bg-lime text-[#06090a] font-semibold"
+                          ? "border-lime bg-lime text-[#0a0a0a] font-semibold"
                           : "border-white/10 text-muted hover:border-lime/50 hover:text-lime"
                       }`}
                     >

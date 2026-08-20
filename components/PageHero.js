@@ -8,7 +8,7 @@ export default function PageHero({ title, crumbs = [] }) {
         className="pointer-events-none absolute inset-0 opacity-40"
         style={{
           backgroundImage:
-            "radial-gradient(circle at 20% 20%, rgba(163,230,53,0.12), transparent 45%), radial-gradient(circle at 80% 0%, rgba(242,169,59,0.10), transparent 40%)",
+            "radial-gradient(circle at 20% 20%, rgba(157, 230, 0,0.12), transparent 45%), radial-gradient(circle at 80% 0%, rgba(255, 194, 12,0.10), transparent 40%)",
         }}
         aria-hidden="true"
       />
