@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${study.client} Case Study`,
-    description: study.summary,
+    description: study.metaDescription,
     alternates: { canonical: `/case-studies/${study.slug}` },
   };
 }
@@ -147,7 +147,7 @@ export default async function CaseStudyDetailPage({ params }) {
                     <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-white p-3">
                       <Image
                         src={item.src}
-                        alt={item.caption}
+                        alt={item.alt || item.caption}
                         fill
                         className="object-contain"
                         sizes="(max-width: 1024px) 100vw, 400px"

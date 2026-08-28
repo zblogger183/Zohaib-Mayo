@@ -23,7 +23,7 @@ export default function IndustryCard({ industry }) {
           href={`/industries/${industry.slug}`}
           className="text-sm font-semibold text-lime hover:text-lime-hover transition-colors"
         >
-          Learn more
+          Learn more<span className="sr-only"> about {industry.name}</span>
         </Link>
         <CircleArrowButton href={`/industries/${industry.slug}`} label={`View ${industry.name}`} />
       </div>

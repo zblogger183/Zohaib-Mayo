@@ -54,6 +54,7 @@ export function CircleArrowButton({ href, className = "", label = "View" }) {
   if (href) {
     return (
       <Link href={href} className={classes} aria-label={label}>
+        <span className="sr-only">{label}</span>
         {arrow}
       </Link>
     );

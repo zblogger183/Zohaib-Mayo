@@ -9,6 +9,8 @@ export const caseStudies = [
     role: "Led end-to-end: supervised site development and launch, then owned SEO strategy and execution plus social media content.",
     summary:
       "A premium US hot tub brand built and launched from the ground up, then grown in a competitive national market through hands-on SEO and content.",
+    metaDescription:
+      "AquaLife Hot Tubs case study: how Zohaib Mayo built the site and grew SEO from zero to 134K+ impressions in the competitive US hot tub market.",
     situation:
       "AquaLife needed a new website built for a competitive US hot tub and spa market with no existing organic footprint — a brand-new domain going up against established national retailers.",
     approach:
@@ -35,6 +37,8 @@ export const caseStudies = [
     role: "Led SEO strategy end to end for the brand's Canadian market presence, including recovery from a Google core algorithm hit.",
     summary:
       "An established US hot tub brand's Canadian storefront, already underperforming in rankings, then hit hard by a Google core algorithm update a month into the engagement — brought back and improved past its original position over the following year.",
+    metaDescription:
+      "SaluSpa case study: how Zohaib Mayo led SEO recovery after a Google algorithm hit, growing to 593K+ impressions in the Canadian hot tub market.",
     situation:
       "SaluSpa was already struggling with rankings for its Canadian market when I took over SEO in May 2025. A month in, a Google core algorithm update hit the site hard, compounding an already difficult starting position.",
     approach:
@@ -61,6 +65,8 @@ export const caseStudies = [
     role: "Led end-to-end: migrated the platform from Shopify to Next.js, then owned SEO, local search, and broader digital marketing.",
     summary:
       "A Lahore-based pharmacy's first year selling online — migrated off Shopify onto a custom Next.js build, then grown through local SEO and digital marketing targeting Lahore's pharmacy search market.",
+    metaDescription:
+      "Upper Lines Pharmacy case study: migrating Shopify to Next.js and growing local SEO for online pharmacy searches in Lahore, Pakistan.",
     situation:
       "Upper Lines Pharmacy launched online sales in 2026, starting on Shopify. The brand needed a platform that could support its growth plans, plus a local SEO strategy to compete for high-intent searches like 'online pharmacy in Lahore.'",
     approach:
@@ -86,6 +92,8 @@ export const caseStudies = [
     role: "Leading full-stack digital marketing end to end — content, Meta and Google Ads, SEO, website, CRM lead automation, WhatsApp bot integration, and performance/funnel strategy across a multi-million PKR paid budget.",
     summary:
       "A real estate consultancy and asset management brand's entire digital marketing system — content, paid media, SEO, CRM, and lead automation — run end to end since January 2026.",
+    metaDescription:
+      "Imlaak case study: full-stack digital marketing — content, paid media, SEO, and CRM automation — for a real estate consultancy in Pakistan and Dubai.",
     situation:
       "Imlaak needed one person accountable for its entire digital marketing system — content across platforms, paid media at real scale, SEO, website management, and the lead pipeline connecting all of it — rather than results depending on several disconnected vendors.",
     approach:
@@ -105,11 +113,13 @@ export const caseStudies = [
     gallery: [
       {
         image: "imlaak-meta-ads",
+        alt: "Imlaak Meta Ads Manager account overview",
         caption:
           "Meta Ads Manager — account-level lifetime totals, including activity from before this engagement began in January 2026. Shown for platform context, not as a results claim.",
       },
       {
         image: "imlaak-google-ads",
+        alt: "Imlaak Google Ads account overview",
         caption:
           "Google Ads — account-level lifetime totals, including activity from before this engagement began in January 2026. Shown for platform context, not as a results claim.",
       },

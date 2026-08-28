@@ -24,7 +24,10 @@ import ContactForm from "@/components/ContactForm";
 import CtaBanner from "@/components/CtaBanner";
 
 export const metadata = {
-  title: `${site.name} — ${site.role}`,
+  // No title here — falls through to the root layout's `default`, which is
+  // already the exact right string. Setting one here would run through the
+  // layout's template too and duplicate it (e.g. "X | Zohaib Mayo — Full-
+  // Stack Digital Marketer | Zohaib Mayo — Full-Stack Digital Marketer").
   description: site.description,
   alternates: { canonical: "/" },
 };

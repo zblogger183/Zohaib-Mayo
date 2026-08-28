@@ -311,7 +311,7 @@ export const services = [
     shortName: "CRM & Automation",
     summary:
       "CRM setup and workflow automation that stops leads from falling through the cracks.",
-    metaTitle: "CRM Setup & Business Automation Services | Zohaib Mayo",
+    metaTitle: "CRM Setup & Business Automation Services",
     metaDescription:
       "CRM implementation, pipeline setup, and marketing/sales automation that connects your channels into one system instead of scattered spreadsheets.",
     heroKicker: "CRM & Automation",
@@ -349,7 +349,7 @@ export const services = [
     shortName: "Custom Software",
     summary:
       "Custom-built tools and internal applications for workflows an off-the-shelf platform can't handle.",
-    metaTitle: "Custom Software & Web Application Development | Zohaib Mayo",
+    metaTitle: "Custom Software & Web Application Development",
     metaDescription:
       "Custom web applications, internal tools, and integrations built when off-the-shelf marketing platforms can't handle a specific workflow.",
     heroKicker: "Custom Software Development",
