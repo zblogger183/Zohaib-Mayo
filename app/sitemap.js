@@ -3,6 +3,7 @@ import { services } from "@/data/services";
 import { industries } from "@/data/industries";
 import { projects } from "@/data/projects";
 import { caseStudies } from "@/data/case-studies";
+import { insights } from "@/data/insights";
 
 export default function sitemap() {
   const now = new Date();
@@ -13,6 +14,7 @@ export default function sitemap() {
     "/services",
     "/industries",
     "/case-studies",
+    "/insights",
     "/projects",
     "/contact",
     "/privacy",
@@ -42,5 +44,17 @@ export default function sitemap() {
     lastModified: now,
   }));
 
-  return [...staticRoutes, ...serviceRoutes, ...industryRoutes, ...projectRoutes, ...caseStudyRoutes];
+  const insightRoutes = insights.map((insight) => ({
+    url: `${site.url}/insights/${insight.slug}`,
+    lastModified: insight.publishedDate,
+  }));
+
+  return [
+    ...staticRoutes,
+    ...serviceRoutes,
+    ...industryRoutes,
+    ...projectRoutes,
+    ...caseStudyRoutes,
+    ...insightRoutes,
+  ];
 }

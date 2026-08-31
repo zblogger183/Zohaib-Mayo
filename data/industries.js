@@ -17,6 +17,38 @@ export const industries = [
       "WhatsApp and call-tracking integration, since most GCC and Pakistan property inquiries close through direct conversation",
       "Listing and project launch campaigns timed around booking deadlines and payment plan announcements",
     ],
+    faqs: [
+      {
+        question: "How is real estate marketing different from other industries?",
+        answer:
+          "Search intent splits hard by buyer type and location in a way most industries don't — an investor evaluating an off-plan launch and a family searching a specific residential phase need entirely different content, landing pages, and ad structures, even though they're both 'real estate.' Most agencies run one generic funnel for both and wonder why cost per lead is high.",
+      },
+      {
+        question: "Do you work with individual agents, or only agencies and developers?",
+        answer:
+          "Mostly agencies and developers, since that's where a full-stack setup — SEO, paid, CRM, and web together — has the most room to work. I'll talk to an individual agent if the fit is right, but the systems described here are built for a business with ongoing listing or project volume.",
+      },
+      {
+        question: "Can you run campaigns across Pakistan and GCC markets at the same time?",
+        answer:
+          "Yes — that's the core of what I do. The channels and platforms are similar, but the campaign structure, ad copy, and even the WhatsApp/call-tracking setup need to be built separately for each market rather than run as one combined campaign.",
+      },
+      {
+        question: "How do WhatsApp and phone inquiries show up in reporting?",
+        answer:
+          "Through call tracking and click-to-WhatsApp attribution set up per campaign, so an inquiry that started as a WhatsApp message from a specific ad gets counted against that ad — not lumped into 'direct' or lost entirely, which is what happens on most real estate accounts I take over.",
+      },
+      {
+        question: "What does a typical real estate engagement actually include?",
+        answer:
+          "It depends on scope, but a full engagement usually covers SEO and location-specific landing pages, Google and Meta lead campaigns split by buyer intent, WhatsApp and call-tracking integration, and CRM setup so leads get routed and followed up automatically instead of going cold.",
+      },
+      {
+        question: "Do you build the property website or landing pages too, or just run ads?",
+        answer:
+          "Both, if that's what's needed. Web development is one of the core services — a lot of real estate ad spend gets wasted pointing traffic at a slow, generic site, so building or fixing the landing pages themselves is often part of the same engagement.",
+      },
+    ],
   },
   {
     slug: "ecommerce",

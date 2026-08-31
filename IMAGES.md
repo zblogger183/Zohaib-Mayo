@@ -32,6 +32,8 @@ layout never breaks.
 | projects/ecommerce-funnel-revamp.webp | 1200 x 800 px | "E-commerce Funnel Revamp" project card + detail |
 | projects/real-estate-lead-engine.webp | 1200 x 800 px | "Real Estate Lead Engine" project card + detail |
 | projects/brand-social-relaunch.webp | 1200 x 800 px | "Brand & Social Relaunch" project card + detail |
+| insights/real-estate-lead-generation-pakistan-gcc.webp | 1200 x 900 px | "How Real Estate Agencies Generate Leads..." article card + detail hero |
+| insights/whatsapp-crm-lead-automation-real-estate.webp | 1200 x 900 px | "WhatsApp CRM & Lead Automation..." article card + detail hero |
 
 **To add a photo:** resize/export it to the exact dimensions listed, save
 it in `.webp` format with the exact filename shown, and place it in the
